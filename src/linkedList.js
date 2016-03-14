@@ -14,28 +14,25 @@ Link.prototype.remove = function () {
   this.prev = null;
 };
 
-
-
-var linkedList = function (head) {
-  this.head = head;
+function LinkedList (head) {
+  this.first = head;
   this.last = head;
-};
+}
 
+// LinkedList.prototype.first = function () {
+//   return this.head;
+// };
+//
+// LinkedList.prototype.last = function () {
+//   return this.last;
+// };
 
-linkedList.prototype.first = function () {
-  return this.head;
-};
-
-linkedList.prototype.last = function () {
-  return this.last;
-};
-
-linkedList.prototype.push = function (node) {
-  this.last().insert(node);
+LinkedList.prototype.push = function (node) {
+  this.last.insert(node);
   this.last = node;
 };
 
-linkedList.prototype.pop = function () {
+LinkedList.prototype.pop = function () {
   var popped = this.last;
   this.last = this.last.prev;
   this.last.next = null;
