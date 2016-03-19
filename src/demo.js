@@ -33,14 +33,14 @@ var printListValues = function (list) {
   console.log(values);
 };
 
-link1 = new Link (1);
-list = new LinkedList (link1);
-link2 = new Link (2);
-list.push(link2);
-link3 = new Link (3);
-list.push(link3);
-link4 = new Link (4);
-list.push(link4);
-printListValues(list);
-filterLinkedList(list, 3);
-printListValues(list);
+// link1 = new Link (1);
+// list = new LinkedList (link1);
+// link2 = new Link (2);
+// list.push(link2);
+// link3 = new Link (3);
+// list.push(link3);
+// link4 = new Link (4);
+// list.push(link4);
+// printListValues(list);
+// filterLinkedList(list, 3);
+// printListValues(list);

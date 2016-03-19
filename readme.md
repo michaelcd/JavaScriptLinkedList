@@ -2,7 +2,7 @@
 
 An implementation of the doubly [Linked List] data structure in JavaScript with specs written in Jasmine.
 
-`demo.js` contains a sample algorithm problem solved using the `Link` and `DoublyLinkedList` classes.
+`demo.js` contains a sample algorithm problem solved using the `Link` and `LinkedList` classes.
 
 <!-- ## Methods
 
