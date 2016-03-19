@@ -1,7 +1,7 @@
 // Given a linked list of integers and an integer value,
 // delete every node of the linkedlist containing that value.
 
-var deleteValues = function (list, value) {
+var filterLinkedList = function (list, value) {
   var currentNode = list.first;
 
   while (currentNode !== null) {
@@ -42,5 +42,5 @@ list.push(link3);
 link4 = new Link (4);
 list.push(link4);
 printListValues(list);
-deleteValues(list, 1);
+filterLinkedList(list, 3);
 printListValues(list);
